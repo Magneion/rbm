@@ -24,5 +24,27 @@ h3, {
 
 img {
   width: 150px;
+}
+a,
+a:visited
+ {
+  text-decoration: none;
+  color: #123069;
+}
 
+a:hover,
+a:focus {
+  color: #FFA314;
+}
+
+footer {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div {
+  background-color: #00081C;
+  text-align: center;
 }
